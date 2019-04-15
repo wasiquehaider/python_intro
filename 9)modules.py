@@ -16,7 +16,7 @@ from validator import validate_email
 # today = datetime.date.today()
 today = date.today()
 timestamp = time()
-
+print(today, timestamp)
 c = CamelCase()
 print(c.hump('hello there world'))
 
