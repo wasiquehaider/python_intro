@@ -13,6 +13,7 @@ user = json.loads(userJSON)
 
 car = {'make': 'Ford', 'model': 'Mustang', 'year': 1970}
 
+print(car)
 carJSON = json.dumps(car)
 
 print(carJSON)

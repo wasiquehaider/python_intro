@@ -1,8 +1,11 @@
 # Python has functions for creating, reading, updating, and deleting files.
 
 # Open a file
+# w = write
+# r = read
+# a = append
 myFile = open('myfile.txt', 'w')
-
+ 
 # Get some info
 print('Name: ', myFile.name)
 print('Is Closed : ', myFile.closed)
@@ -14,11 +17,12 @@ myFile.write(' and JavaScript')
 myFile.close()
 
 # Append to file
+
 myFile = open('myfile.txt', 'a')
-myFile.write(' I also like PHP')
+myFile.write(' I also like Java and C#')
 myFile.close()
 
 # Read from file
 myFile = open('myfile.txt', 'r+')
-text = myFile.read(100)
+text = myFile.read()
 print(text)
